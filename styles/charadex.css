@@ -15,21 +15,21 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #8FB7D4;
+  --cd-primary-color:                    #454545;
   --cd-primary-text-color:               #fff;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #939799;
+  --cd-secondary-color:                  #4d1010;
   --cd-secondary-text-color:             #fff;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #f8f8f8;
-  --cd-content-background-color:         #ffffff;
-  --cd-faded-background-color:           #f8f8f8;
+  --cd-body-background-color:            #4d1010;
+  --cd-content-background-color:         #000000;
+  --cd-faded-background-color:           #ffffff;
 
   /* Background Extras */
   --cd-body-background-image:             url();
@@ -37,8 +37,8 @@ body {
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color:                  #303030;
-  --cd-faded-text-color:                 #575757;
+  --cd-body-text-color:                  #ffffff;
+  --cd-faded-text-color:                 #ffffff;
 
   /* ============================================================= */
   /* Borders
@@ -46,17 +46,17 @@ body {
   --cd-border-color:                     rgba(0, 0, 0, 0.125);
   --cd-border-width:                     1px;
   --cd-border-style:                     solid;
-  --cd-border-radius:                    1rem;
+  --cd-border-radius:                    10px;
 
   /* ============================================================= */
   /* Navbar
   ================================================================ */
   --cd-navbar-background-color:          #222222;
-  --cd-navbar-brand-color:               var(--cd-primary-color);
+  --cd-navbar-brand-color:               #ffffff;
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
-  --cd-navbar-text-color:                var(--cd-content-background-color);
+  --cd-navbar-text-color:                #ffffff;
   --cd-navbar-link-color:                var(--cd-navbar-text-color);
-  --cd-navbar-link-color-hover:          var(--cd-primary-color);
+  --cd-navbar-link-color-hover:          var(--cd-secondary-color);
   --cd-navbar-font-family:               var(--cd-header-font-family);
   
   /* ============================================================= */
@@ -105,7 +105,7 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color:                  #4c8ebd;
+  --cd-link-text-color:                  #ffffff;
   --cd-link-text-color-hover:            var(--cd-secondary-color);
 
 
