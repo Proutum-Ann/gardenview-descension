@@ -445,7 +445,7 @@ a.badge.badge-primary:active  {
 
 .form-control {
   background-color: var(--cd-input-background-color) !important;
-  color: var(--cd-input-text-color) !important;
+  color: #000000 !important;
   border-width: var(--cd-input-border-width) !important;
   border-style: var(--cd-input-border-style) !important;
   border-color: var(--cd-input-border-color) !important;
