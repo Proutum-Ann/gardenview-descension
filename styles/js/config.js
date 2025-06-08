@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
+  url: "https://proutum-ann.github.io/gardenview-descension/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "1rJ-RA6nbq03-latCwjqyxj8RcMxfcPit7G3EZAnkB5k",
 
   pages: {
     masterlist:    "masterlist",
