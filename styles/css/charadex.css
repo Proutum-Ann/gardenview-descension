@@ -29,7 +29,7 @@ body {
   ================================================================ */
   --cd-body-background-color: #4d1010;
   --cd-content-background-color: #000000;
-  --cd-faded-background-color: #ffffff;
+  --cd-faded-background-color: #454545;
 
   /* Background Extras */
   --cd-body-background-image: url();
@@ -561,9 +561,9 @@ a.badge.badge-primary:active {
   color: var(--cd-primary-color) !important;
 }
 
-.bg-faded {
+/* .bg-faded {
   background-color: var(--cd-faded-background-color) !important;
-}
+} */
 
 .bg-reset {
   background-color: var(--cd-content-background-color) !important;
@@ -779,4 +779,11 @@ p:last-child {
 .badge-event {
   background-color: var(--cd-rarity-event-bg);
   color: var(--cd-rarity-event-txt);
+}
+
+/* Extra */
+
+.card .bg-faded {
+  background-color: var(--cd-primary-color)!important;
+  color: #000!important
 }
