@@ -42,11 +42,11 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
+    designTypes: ['All', 'Official Design', 'Guest Design', 'DYO Slot', 'DYO Design'],
+    statuses: ['All', 'Normal', 'Twisted', 'Untwisted'],
+    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Event'],
+    species: ['All'],
+    itemTypes: ['All', 'Currency', 'DYO Slot', 'Trait', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
 
   }
