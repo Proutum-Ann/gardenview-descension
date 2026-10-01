@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Charadex",
-  url: "https://proutum-ann.github.io/gardenview-descension/",
+  url: "https://charadex-team.github.io/charadex-v1.0/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1rJ-RA6nbq03-latCwjqyxj8RcMxfcPit7G3EZAnkB5k",
+  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
 
   pages: {
     masterlist:    "masterlist",
@@ -42,12 +42,12 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Guest Artist Design', 'Staff Design', 'Founder Design', 'Player Design'],
-    statuses: ['All', 'Active', 'Twisted', 'Terminated'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Main Character', 'Event', 'Lethal'],
-    species: ['All'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Application', 'Misc'],
-    traitTypes: ['All', 'Coloration', 'Material', 'Enhancement']
+    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
+    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
+    species: ['All', 'Dog', 'Cat', 'Bunny'],
+    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
+    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
 
   }
 
