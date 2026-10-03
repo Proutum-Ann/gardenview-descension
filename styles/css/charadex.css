@@ -778,10 +778,7 @@ p:last-child {
 /* ============================================================= */
 /* Extras
 /* ============================================================= */
-
-.col-md-8 .p-2 .description {
-  overflow-y: auto;
-  max-height: 150px;
+.description {
   scrollbar-width: thin;
-  scrollbar-color: var(--cd-primary-color) var(--cd-faded-background-color);
+  scrollbar-color: var(--cd-primary-color) transparent;
 }
