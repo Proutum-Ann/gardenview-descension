@@ -774,3 +774,14 @@ p:last-child {
   background-color: var(--cd-rarity-legendary-bg);
   color: var(--cd-rarity-legendary-txt);
 }
+
+/* ============================================================= */
+/* Extras
+/* ============================================================= */
+
+.col-md-8 .p-2 .description {
+  overflow-y: auto;
+  max-height: 150px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--cd-primary-color) var(--cd-faded-background-color);
+}
