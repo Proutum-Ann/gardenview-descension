@@ -116,7 +116,7 @@ charadex.page.toons = {
   sheetPage: charadex.sheet.pages.toons,
   sitePage: 'toons',
   dexSelector: 'charadex',
-  profileProperty: 'toon',
+  profileProperty: 'name',
 
   sort: {
     toggle: true,
