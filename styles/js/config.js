@@ -34,7 +34,7 @@ charadex.sheet = {
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",
-    traits:        "traits",
+    toons:        "toons",
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
@@ -46,7 +46,7 @@ charadex.sheet = {
     statuses: ['All', 'Normal', 'Twisted', 'Untwisted'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Event'],
     species: ['All'],
-    itemTypes: ['All', 'Currency', 'DYO Slot', 'Trait', 'Misc'],
+    itemTypes: ['All', 'Currency', 'DYO Slot', 'Toon', 'Misc'],
     toonTypes: ['All', 'Common', 'Uncommon', 'Rare', 'Main Character', 'Event', 'Event Main Character']
 
   }
@@ -109,14 +109,14 @@ charadex.page.items = {
 };
 
 
-/* Traits
+/* Toons
 /* --------------------------------------------------------------- */
-charadex.page.traits = {
+charadex.page.toons = {
 
-  sheetPage: charadex.sheet.pages.traits,
-  sitePage: 'traits',
+  sheetPage: charadex.sheet.pages.toons,
+  sitePage: 'toons',
   dexSelector: 'charadex',
-  profileProperty: 'trait',
+  profileProperty: 'toon',
 
   sort: {
     toggle: true,
@@ -134,7 +134,7 @@ charadex.page.traits = {
   filters: {
     toggle: true,
     parameters: {
-      'Type': charadex.sheet.options.traitTypes,
+      'Type': charadex.sheet.options.toonTypes,
       'Rarity': charadex.sheet.options.rarity,
     }
   },
@@ -142,13 +142,13 @@ charadex.page.traits = {
   fauxFolder: {
     toggle: true,
     folderProperty: 'Type',
-    parameters: charadex.sheet.options.traitTypes,
+    parameters: charadex.sheet.options.toonTypes,
   },
 
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Toon', 'Rarity']
   },
 
   prevNext: {
@@ -343,7 +343,7 @@ charadex.page.masterlist = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Traits']
+    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Toons']
   },
 
   prevNext: {
