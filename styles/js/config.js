@@ -47,7 +47,7 @@ charadex.sheet = {
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Event'],
     species: ['All'],
     itemTypes: ['All', 'Currency', 'DYO Slot', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    toonTypes: ['All', 'Common', 'Uncommon', 'Rare', 'Main Character', 'Event', 'Event Main Character']
 
   }
 
